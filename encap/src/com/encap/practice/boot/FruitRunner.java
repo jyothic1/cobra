@@ -6,7 +6,11 @@ public class FruitRunner extends Apple{
 	{
 		
 		Apple apple=new Apple();
-		
+		apple.setPrice(null);
+		apple.setQuantity(0);
+		apple.setType("simla");
+		System.out.println(apple.getType());  
+		apple.print();
 		
 		
 		

@@ -2,8 +2,8 @@ package com.encap.practice.code;
 
 public class Apple {
 	private int quantity;
-	private Double price;
-	private String type;
+	 private Double price;
+	private  String type;
 	
 
 	public Apple() {
@@ -27,17 +27,17 @@ public class Apple {
 	}
 
 
- void setPrice(Double price) {
+ public void setPrice(Double price) {
 		this.price = price;
 	}
 
 
- protected String getType() {
+ public String getType() {
 		return type;
 	}
 
 
-	protected void setType(String type) {
+	public void setType(String type) {
 		this.type = type;
 	}
 public void print()
