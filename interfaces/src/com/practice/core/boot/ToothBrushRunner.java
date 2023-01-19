@@ -21,8 +21,7 @@ public class ToothBrushRunner {
 		System.out.println(teeth.company("oral=b"));
 		System.out.println(t.quality(false));
 		System.out.println(comp);
-		
-		
+	
 
 
 		
